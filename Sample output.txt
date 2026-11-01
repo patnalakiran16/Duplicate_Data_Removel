@@ -1,0 +1,30 @@
+Original Employee Dataset:
+     Name  Age Department  Salary
+0   Kiran   23         IT   30000
+1    Ravi   24         HR   35000
+2   Priya   22    Finance   40000
+3  Suresh   25         IT   32000
+4   Kiran   23         IT   30000
+5     Anu   21         HR   28000
+6    Ravi   24         HR   35000
+
+Total records before cleaning: 7
+
+Duplicate Records Found:
+    Name  Age Department  Salary
+4  Kiran   23         IT   30000
+6   Ravi   24         HR   35000
+
+Total Duplicate Records: 2
+
+Total records after cleaning: 5
+
+Final Cleaned Employee Dataset:
+     Name  Age Department  Salary
+0   Kiran   23         IT   30000
+1    Ravi   24         HR   35000
+2   Priya   22    Finance   40000
+3  Suresh   25         IT   32000
+5     Anu   21         HR   28000
+
+Dataset cleaned and saved successfully!
